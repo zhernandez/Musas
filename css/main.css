@@ -1,0 +1,319 @@
+*{
+  font-family: 'Rosario', sans-serif;
+  
+}
+/*Navbar*/
+#custom-nav {
+    background-color:rgba(192, 101, 118, 0.7);
+    border: 0;
+    box-shadow: none;
+    z-index: 999;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-transition: background .5s ease-in-out, opacity .5s ease;
+    -moz-transition: background .5s ease-in-out, opacity .5s ease;
+    transition: background .5s ease-in-out, opacity .5s ease;
+}
+
+#custom-nav .dropdown-menu {
+    border-radius: 0;
+    border: none;
+    border-top: 5px solid transparent;
+    background-color: #FFFFFF;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    padding-top: 0;
+}
+
+#custom-nav .links-scroll{
+  color: #FFFFFF;
+}
+
+/*Carrusel*/
+
+#myCarousel {
+  }
+ #myCarousel h2 {
+    padding: 0.5em 0em;
+    margin-bottom: 30%;
+    margin-top: 30%; }
+  #myCarousel img {
+    height: auto;
+    width: 100%; }
+
+/*Seccion Acerca de Nosotros/Que hacemos?*/
+#us{
+  background-color: #575761;
+}
+#us .tittle{
+    color: #fff;
+    font-weight: bolder;
+    font-size: 110%;
+    margin-top: 3em;
+    margin-bottom: 2em;
+  }
+#us p{
+  color: #fff;
+}  
+#us img{
+  width: 100%;
+  height: auto;
+}  
+#identidad{
+  padding-top: 3em;
+  padding-bottom: 3em;
+   
+}  
+#identidad h3{
+  color: #575761;
+}
+#identidad i {
+  color: #fff;
+  background-color: #B185BF;
+  padding: 0.5em;
+  border-radius: 100%; }
+#identidad .value {
+  padding: 0.5em 0.7em; }
+#identidad .circle-icon {
+  padding: 0.5em; } 
+#identidad h3{
+  font-weight: bolder;
+}
+#identidad{
+  font-size: 120%
+}  
+
+/*Boton de retorno automatico*/
+#return-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background:  #c06576;
+  background: rgba(192, 101, 118, 0.7);
+  width: 50px;
+  height: 50px;
+  display: block;
+  text-decoration: none;
+  -webkit-border-radius: 35px;
+  -moz-border-radius: 35px;
+  border-radius: 35px;
+  display: none;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s ease;
+  -ms-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease; }
+  #return-to-top i {
+    color: #fff;
+    margin: 0;
+    position: relative;
+    left: 16px;
+    top: 13px;
+    font-size: 19px;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+#return-to-top:hover {
+  background: rgba(192, 101, 118, 0.9); }
+  #return-to-top:hover i {
+    color: #fff;
+    top: 5px; }
+
+.test{
+  background-color: #c06576
+}
+
+/*Servicios*/
+#services{
+  background-image: url(../images/tile1.png);
+  background-position: center center;
+  background-repeat:repeat;
+  background-attachment: fixed; 
+}
+#terapia1{
+  background-image: url('../images/terapias/t1.jpg');
+  width: 100%;
+ }
+#terapia2{
+  background-image: url('../images/terapias/t2.jpeg');
+  width: 100%;
+ }
+#terapia3{
+  background-image: url('../images/terapias/t3.jpeg');
+  width: 100%;
+ }
+#terapia4{
+  background-image: url('../images/terapias/t4.jpg');
+  width: 100%;
+ }
+#terapia5{
+  background-image: url('../images/terapias/t5.jpg');
+  width: 100%;
+ }
+ #terapia6{
+  background-image: url('../images/terapias/t6.jpg');
+  width: 100%;
+ }
+#taller1{
+  background-image: url('../images/talleres/p1.jpg');
+  width: 100%;
+ }
+#taller2{
+  background-image: url('../images/talleres/p2.jpg');
+  width: 100%;
+ }
+#taller3{
+  background-image: url('../images/talleres/p3.jpg');
+  width: 100%;
+ }
+#taller4{
+  background-image: url('../images/talleres/p4.jpg');
+  width: 100%;
+}
+#taller5{
+  background-image: url('../images/talleres/p5.jpg');
+  width: 100%;
+}
+#taller6{
+  background-image: url('../images/talleres/p6.jpg');
+  width: 100%;
+}
+#taller7{
+  background-image: url('../images/talleres/p7.jpg');
+  width: 100%;
+}
+#taller8{
+  background-image: url('../images/talleres/p8.jpg');
+  width: 100%;
+}
+#taller9{
+  background-image: url('../images/talleres/p9.jpg');
+  width: 100%;
+}
+#otros10{
+  background-image: url('../images/otros/ot1.jpg');
+  width: 100%;
+}
+#otros11{
+  background-image: url('../images/otros/ot2.jpg');
+  width: 100%;
+}
+#otros12{
+  background-image: url('../images/otros/ot3.jpg');
+  width: 100%;
+}
+#otros13{
+  background-image: url('../images/otros/ot4.jpeg');
+  width: 100%;
+}
+#otros14{
+  background-image: url('../images/otros/ot5.jpg');
+  width: 100%;
+}
+.opacitydiv{
+  background-color:#1C1C1C;
+  opacity: 0.7;
+  color: #FFFFFF;
+  height:20px;
+  width: auto;
+  padding:20px 25px;
+  position: relative; 
+  top: 20px;
+  min-height: 350px;
+  margin:14px 7px;
+  padding-bottom: 30px;
+}
+.configdiv{
+  background-size:cover;
+  background-position: center, center;
+  width: 90%;
+  min-height: 350px;
+  margin:14px 7px;
+  padding-bottom: 30px;
+}
+.about{
+  min-height: 350px;
+  margin:30px 7px;
+  padding-bottom: 30px;
+}
+.big{
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  position: relative;
+  top: 15px;
+}
+/*testimonio*/
+#testimonio{
+
+  background: #8A788B;
+}
+#testimonio h2{
+  color: #d1c8db;
+}
+#testimonio blockquote{
+  color: #d1c8db;
+  border-left: solid #d1c8db 5px;
+}
+#testimonio footer{
+  color: #fff;
+}
+
+/*Contacto*/
+#contact{
+  background-image: url('../images/contact.jpeg');
+  background-attachment: fixed;
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+}
+.infobox{
+  background-color: #575761;
+  border-radius: 15px;
+  color: #FFFFFF;
+  font-size: 1em;
+  padding: 4em;
+  margin: 2em;
+}
+.direction{
+  position: relative;
+  bottom: 20px;
+  left: 10px;
+  display: inline-block;
+}
+.face{
+  color: #FFFFFF;
+  text-decoration:none;  
+}
+.infoico{
+  margin:0.5em;
+}
+
+/*Pie de pagina*/
+
+#pie{
+  background-color:  #241423;
+  color:#d1c8db;;
+}
+.right{
+  display: inline-block;
+}
+/*#241423
+2B202E*/
+
+@media (min-width : 376px) and (max-width : 667px){
+  .carousel-caption{
+    h2{
+      font-size: 50%;
+    }
+  }
+}
+@media (min-width : 667px) and (max-width : 1024px){
+    
+}
+@media  (min-width : 1024px) and (max-width : 1600px){
+    
+}
