@@ -31,7 +31,9 @@
 
 /*Carrusel*/
 
-#myCarousel {
+#myCarousel img{
+    height: 650px; 
+    width: 100%;
   }
  #myCarousel h2 {
     padding: 0.5em 0em;
@@ -130,7 +132,8 @@
   background-image: url(../images/tile1.png);
   background-position: center center;
   background-repeat:repeat;
-  background-attachment: fixed; 
+  background-attachment: fixed;
+  padding-top:50px; 
 }
 #terapia1{
   background-image: url('../images/terapias/t1.jpg');
@@ -248,6 +251,13 @@
 }
 /*testimonio*/
 #testimonio{
+  background-image: url(../images/tile1.png);
+  background-position: center center;
+  background-repeat:repeat;
+  background-attachment: fixed;
+  padding: 50px 0;
+}
+.quote{
 
   background: #8A788B;
 }
@@ -271,7 +281,7 @@
   width: 100%;
 }
 .infobox{
-  background-color: #575761;
+  background-color: #8A788B;
   border-radius: 15px;
   color: #FFFFFF;
   font-size: 1em;
@@ -280,8 +290,8 @@
 }
 .direction{
   position: relative;
-  bottom: 20px;
-  left: 10px;
+  bottom: 40px;
+  left: 40px;
   display: inline-block;
 }
 .face{
@@ -301,16 +311,22 @@
 .right{
   display: inline-block;
 }
-/*#241423
-2B202E*/
-
-@media (min-width : 376px) and (max-width : 667px){
-  .carousel-caption{
-    h2{
-      font-size: 50%;
-    }
-  }
+.map{
+  position: relative;
+  top: 35px;
 }
+.move{
+  position: relative;
+  bottom: 30px;
+}
+/*#241423
+2B202E
+ #8A788B;*/
+
+@media (min-width : 76px) and (max-width : 667px){
+  .carousel-caption{
+      display: none;
+    }
 @media (min-width : 667px) and (max-width : 1024px){
     
 }
