@@ -258,7 +258,7 @@
   padding: 50px 0;
 }
 .quote{
-
+  padding-bottom: 2em;
   background: #8A788B;
 }
 #testimonio h2{
@@ -327,6 +327,18 @@
   .carousel-caption{
       display: none;
     }
+  #contact{
+    padding: 0.2em;
+    padding-bottom: 3em;
+  }  
+  iframe{
+    width: 100%;
+    height:15em;
+    margin: 0.2em;
+  }
+  .infobox{
+    margin: 0;
+  }
 @media (min-width : 667px) and (max-width : 1024px){
     
 }
