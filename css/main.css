@@ -140,6 +140,11 @@
 .serv{
   font-size: 120%;
 }
+.marque{
+  background-color: #8A788B;
+  color: #fff;
+  padding-bottom: 0.5em;
+}
 #terapia1{
   background-image: url('../images/terapias/t1.jpg');
   width: 100%;
@@ -223,7 +228,7 @@
 .opacitydiv{
   font-size: 120%;
   background-color:#1C1C1C;
-  opacity: 0.6;
+  opacity: 0;
   color: #FFFFFF;
   height:20px;
   width: auto;
@@ -234,12 +239,15 @@
   margin:20px 0;
   padding-bottom: 30px;
 }
+.opacitydiv:hover{
+  opacity: 0.7;
+}
 .configdiv{
   background-size:cover;
   background-position: center, center;
   width: 90%;
   min-height: 350px;
-  margin:14px 7px;
+  margin:14px 0;
   padding-bottom: 30px;
 }
 .about{
