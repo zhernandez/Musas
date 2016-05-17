@@ -22,38 +22,40 @@
 </head>
 <body>
 	<header> <!--barra de navegacion-->
-        <nav id="custom-nav" class="navbar navbar-inverse navbar-fixed-top navbar-inner" role="navigation">
-            <div class="container"> 
+
+        <nav id="custom-nav" class="navbar navbar-default navbar-fixed-top">
+            <div class="container-fluid">
+             
                 <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                        <span class="sr-only">Click Aqui</span>
+                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                        <span class="sr-only">menu</span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
                         <span class="icon-bar"></span>
-                    </button>                     
-                        <a href="#"class="brand page-scroll"><img style="height:70px;" src="images/logo/logo-musasb.png" alt="logo-musas"></a>
-                    </div>
-                    <div class="collapse navbar-collapse navbar-ex1-collapse pull-right">         
-                        <ul class="nav navbar-nav">
-                            <li>
-                                <a class="links-scroll" href="#identidad">Valores</a>
-                            </li>
-                            <li>
-                                <a class="links-scroll" href="#us">¿Quiénes Somos?</a>
-                            </li>
-                            <li>
-                                <a class="links-scroll" href="#services">Talleres</a>
-                            </li>
-                            <li>
-                                <a class="links-scroll" href="#testimonio">Vivencias</a>
-                            </li>
-                            <li>
-                                <a class="links-scroll" href="#contact">Contacto</a>
-                            </li>
-                        </ul>                            
-                    </div>
+                    </button>
+                    <a href="#"class="brand page-scroll"><img style="height:70px;" src="images/logo/logo-musasb.png" alt="logo-musas"></a>
                 </div>
-            </nav> 
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav navbar-right animated infinite bounce">
+                        <li>
+                            <a class="links-scroll" href="#identidad">Valores</a>
+                        </li>
+                        <li>
+                            <a class="links-scroll" href="#us">¿Quiénes Somos?</a>
+                        </li>
+                        <li>
+                            <a class="links-scroll" href="#services">Talleres</a>
+                        </li>
+                        <li>
+                            <a class="links-scroll" href="#testimonio">Vivencias</a>
+                        </li>
+                        <li>
+                            <a class="links-scroll" href="#contact">Contacto</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
         </header> 
         <section>
             <!-- Carousel-->
@@ -625,8 +627,9 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12">
-                    <div><strong>Designed by</strong> Laboratoria Mx 2016 </div>
-                    <div class="right text-muted">@2016 Sharon De Diego /Joyce Hernández Todos los derechos reservados.</div>
+                    <div><strong>Designed by</strong> Laboratoria Mx 2016 
+                    <span class="pull-right text-muted">@2016 Sharon De Diego /Joyce Hernández Todos los derechos reservados.</span>
+                    </div>
                 </div>
             </div>
         </div>        

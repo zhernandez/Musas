@@ -323,7 +323,8 @@ iframe{
 
 #pie{
   background-color:  #241423;
-  color:#d1c8db;;
+  color:#d1c8db;
+  padding: 0.5em;
 }
 .right{
   display: inline-block;
